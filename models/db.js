@@ -11,9 +11,9 @@ let dbURI = 'mongodb://localhost:27017/test'
 
 mongoose.Promise = global.Promise
 
-if (process.env.NODE_PRO === 'production') {
-    dbURI = process.env.MONGOLAB_URI
-}
+// if (process.env.NODE_PRO === 'production') {
+//     dbURI = process.env.MONGOLAB_URI
+// }
 
 /**
  * Connect MongoDB

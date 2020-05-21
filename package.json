@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "node bin/www",
-        "dev": "./node_modules/.bin/nodemon bin/www",
+        "dev": "./node_modules/.bin/nodemon bin/www.mjs",
         "prd": "pm2 start bin/www",
         "test": "echo \"Error: no test specified\" && exit 1",
         "pretty": "prettier --write --print-width 80 --single-quote --trailing-comma es5 --tab-width 4 --no-semi '*.js' '**/*.js'",

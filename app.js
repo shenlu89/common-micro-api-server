@@ -3,13 +3,14 @@ import views from 'koa-views'
 import koaBody from 'koa-body'
 import logger from 'koa-morgan'
 import jwt from 'koa-jwt'
-// import cors from '@koa/cors'
 import path from 'path'
+import koaStatic from 'koa-static'
+
+// import cors from '@koa/cors'
 // import helmet from 'koa-helmet'
 // import compress from 'koa-compress'
 // import { Z_SYNC_FLUSH } from 'zlib'
 // import staticCache from 'koa-static-cache'
-import koaStatic from 'koa-static'
 
 // extend cwpb-server services
 import index from './routes/index'
